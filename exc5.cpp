@@ -1,6 +1,10 @@
 #include <iostream>
 #include <string>
 
+/**
+ * Função para inverter uma string.
+ * Recebe uma entrada do tipo string e retorna uma string inversa a entrada.
+*/
 std::string inverso(std::string entrada){
     std::string saida;
     
@@ -12,6 +16,9 @@ std::string inverso(std::string entrada){
     return saida;
 }
 
+/**
+ * Main solicita uma entrada, do tipo string, pelo console e imprime a string de entrada invertida.
+*/
 int main(int argc, char const *argv[])
 {
     std::string entrada;
